@@ -4,7 +4,7 @@
 
 # Site
 title: Running_Leon
-subtitle: a personal blog
+subtitle: stay true and keep running
 description: a personal blog
 author: Leon Ma
 language: zh-CN
@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://runningleon.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -52,6 +52,7 @@ tag_map:
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
+
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 

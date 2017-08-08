@@ -2,15 +2,15 @@
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
-# Site
+# Site 
 title: Running_Leon
-subtitle: stay true and keep running
-description: a personal blog
+subtitle: Stay true and keep running
+description: A personal blog
 author: Leon Ma
 language: zh-CN
-timezone:
+timezone: 
 
-# URL
+# URL 
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://runningleon.github.io
 root: /

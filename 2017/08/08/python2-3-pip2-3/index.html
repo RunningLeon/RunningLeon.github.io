@@ -1,12 +1,8 @@
 
 
-  
 
 
 
-
-
-  
 
 
 <!doctype html>
@@ -20,9 +16,12 @@
   
   
   
-    <meta name="description" content="A personal blog">
+    <meta name="description" content="##一.安装python2 python3官网下载地址: download
+图文安装教程请点击: 转载~
+注:python3安装时可以选择自动添加环境变量,如果没有选择,安装后请手动添加环境变量.
+##二.修改python.exe的名字分别找到python2 和python3的安装目录, 比如C:\Python27\, C:\Python36\,将这连个目录下的python.exe文件名重命...">
   
-  <title>归档: 2017 [ Running_Leon ]</title>
+  <title>windows下同时安装python2和python3以及pip2和pip3 [ Running_Leon ]</title>
   
   
     <link rel="shortcut icon" href="/favicon.ico">
@@ -41,6 +40,24 @@
 <body>
 <div class="side-navigate hide-area">
   
+    <div class="item prev">
+      <a href="/2017/08/08/hexo-YAMLException/">
+        <div class="item-icon"></div>
+      </a>
+      <div class="item-title">
+        hexo YAMLException
+      </div>
+    </div>
+  
+  
+    <div class="item next">
+      <a href="/2017/06/18/hello-world/">
+        <div class="item-icon"></div>
+      </a>
+      <div class="item-title">
+        Hello World
+      </div>
+    </div>
   
 </div>
 <div id="outer-container" class="hide-area">
@@ -66,7 +83,7 @@
           </li>
         
           
-            <li class="active">
+            <li>
           
             <a href="/archives">Archives</a>
             
@@ -112,142 +129,68 @@
     <div id="content-inner">
       
       
-  <article>
-    
-
-  <div id="recent-posts">
-    <h1>归档
-    
-      <span class="posts-count">
-      共
-      3
+  <article id="post">
+    <h1>windows下同时安装python2和python3以及pip2和pip3</h1>
+    <p class="page-title-sub">
+      <span id = "post-title-date">撰写于 2017-08-08</span>
       
-        文章
+        <span id = "post-title-updated">修改于 2017-08-08</span>
+      
+      
+      
+      <span id = "post-title-tags">
+      标签
+      
+      
+        
+        
+        <a href="/tags/python-pip/">python pip</a>
       
       </span>
-    
-    </h1>
-    
-    
       
-      
-        
-      
-      
+    </p>
     
-      
-      
-      
-    
-      
-      
-      
-    
-    
-    
-      
-      
-        
-        <h3 class="archive-year-title">2017
-        
-          <span class="posts-count">
-          共
-          3
-          
-            文章
-          
-          </span>
-        
-        </h3>
-      
-      <div class="post-title-item">
-  
-  <a href="/2017/08/08/hexo-YAMLException/">
-  
-    hexo YAMLException
-  
-  </a>
-  <p class="page-title-sub">
-    <span id = "post-title-date">8-8</span>
-    
-    
-    <span id = "post-title-tags">
-    标签
-    
-    
-      
-      
-      <a href="/tags/hexo-YAMLException/">hexo YAMLException</a>
-    
-    </span>
-    
-    
-      <br>
-      
-      
-    
-  </p>
-  
-</div>
-    
-      
-      
-      <div class="post-title-item">
-  
-  <a href="/2017/08/08/python2-3-pip2-3/">
-  
-    windows下同时安装python2和python3以及pip2和pip3
-  
-  </a>
-  <p class="page-title-sub">
-    <span id = "post-title-date">8-8</span>
-    
-    
-    <span id = "post-title-tags">
-    标签
-    
-    
-      
-      
-      <a href="/tags/python-pip/">python pip</a>
-    
-    </span>
-    
-    
-      <br>
-      
-      
-    
-  </p>
-  
-</div>
-    
-      
-      
-      <div class="post-title-item">
-  
-  <a href="/2017/06/18/hello-world/">
-  
-    Hello World
-  
-  </a>
-  <p class="page-title-sub">
-    <span id = "post-title-date">6-18</span>
-    
-    
-    
-      <br>
-      
-      
-    
-  </p>
-  
-</div>
-    
-  </div>
-
+    <p>##一.安装python2 python3<br>官网下载地址: <a href="https://www.python.org/downloads/" target="_blank" rel="external">download</a></p>
+<p>图文安装教程请点击: <a href="http://www.cnblogs.com/hongten/p/hongten_python_install.html" target="_blank" rel="external">转载~</a></p>
+<p><em>注:python3安装时可以选择自动添加环境变量,如果没有选择,安装后请手动添加环境变量.</em></p>
+<p>##二.修改python.exe的名字<br>分别找到python2 和python3的安装目录, 比如<code>C:\Python27\, C:\Python36\</code>,将这连个目录下的python.exe文件名重命名为python2,python3.</p>
+<p>win+R 输入cmd进入命令行分别输入<code>python2 -V, python3 -V</code>进行验证,结果如下图,表面修改成功!</p>
+<p><img src="http://i.imgur.com/OvrHuKu.png" alt="ops"></p>
+<p>##三.重新安装pip2, pip3<br>cmd命令行中分别输入:</p>
+<p><code>python2-m pip install --upgrade pip --force-reinstall</code><br><code>python3-m pip install --upgrade pip --force-reinstall</code></p>
+<p>成功安装图如下:</p>
+<p><img src="http://i.imgur.com/PrNaI0V.png" alt="ops"></p>
+<p>分别输入pip2 -V   pip3 -V 进行验证,如下图:</p>
+<p><img src="http://i.imgur.com/7o4TfkP.png" alt="ops"></p>
+<p>以后就可以分别用pip2 install … pip3 install 分别安装各自版本的package.</p>
 
   </article>
+  <div class="random-toc-area">
+  <button class="btn-hide-toc btn-hide-toc-show" style="display: none" onclick="TOCToggle()">显示目录</button>
+  <button class="btn-hide-toc btn-hide-toc-hide" onclick="TOCToggle()">隐藏目录</button>
+  <div class="random-toc">
+    <h2>目录</h2>
+    
+  </div>
+</div>
+
+  
+<nav id="pagination">
+  
+    <a href="/2017/08/08/hexo-YAMLException/" class="prev">&larr; 上一篇 hexo YAMLException</a>
+  
+
+  
+
+  
+    <a href="/2017/06/18/hello-world/" class="next">下一篇 Hello World &rarr;</a>
+  
+</nav>
+
+  <!-- JiaThis Button BEGIN -->
+
+<!-- JiaThis Button END -->
+
 
       
       
@@ -394,6 +337,8 @@ var unsplashConfig = {"gravity":"north"};
 var turnoffBackgroundImage = false;
 
 
+
+  turnoffBackgroundImage = true;
 
 
 var backgroundColor = "34495E";

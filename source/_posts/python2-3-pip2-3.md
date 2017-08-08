@@ -18,7 +18,7 @@ tags: python pip
 
 win+R 输入cmd进入命令行分别输入`python2 -V, python3 -V `进行验证,结果如下图,表面修改成功!
 
-![ops](http://i.imgur.com/OvrHuKu.png)
+![](http://i.imgur.com/OvrHuKu.png)
 
 ##三.重新安装pip2, pip3
 cmd命令行中分别输入:
@@ -28,11 +28,11 @@ cmd命令行中分别输入:
 
 成功安装图如下:
 
-![ops](http://i.imgur.com/PrNaI0V.png)
+![](http://i.imgur.com/9aaXSwH.png)
 
 分别输入pip2 -V   pip3 -V 进行验证,如下图:
 
-![ops](http://i.imgur.com/7o4TfkP.png)
+![](http://i.imgur.com/03zYA0W.png)
 
 以后就可以分别用pip2 install ... pip3 install 分别安装各自版本的package.
 

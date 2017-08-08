@@ -6,11 +6,12 @@ tags: hexo YAMLException
 # Hexo YAMLException
 
 `$ hexo g
+
 INFO  Start processing
 ERROR Process failed: _posts/xx.md
-YAMLException: can not read a block mapping entry; a multiline key may not be an implicit key at line 4, column 1:
 
-    ^
+YAMLException: can not read a block mapping entry; a multiline key may not be an implicit key at line 4, column 1:
+    
     at generateError (D:\blogs\Hexo\hexo-blog\node_modules\js-yaml\lib\js-yaml\loader.js:162:10)
     at throwError (D:\blogs\Hexo\hexo-blog\node_modules\js-yaml\lib\js-yaml\loader.js:168:9)
     at readBlockMapping (D:\blogs\Hexo\hexo-blog\node_modules\js-yaml\lib\js-yaml\loader.js:1045:9)

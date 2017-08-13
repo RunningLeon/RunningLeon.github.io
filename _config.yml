@@ -72,5 +72,5 @@ deploy:
   type: git
   repo:
     github: git@github.com:RunningLeon/RunningLeon.github.io.git,master
-    coding: git@git.coding.net:Running_Leon/RunningLeon.coding.me.git,master
+    coding: git@git.coding.net:Running_Leon/Running_Leon.coding.me.git,master
 
